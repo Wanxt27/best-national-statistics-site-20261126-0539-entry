@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Nusantara Statistics — Badan Statistik Nusantara</title>
+<meta name="description" content="Headline indicators, population, economy, provinces, health and education for the Republic of Nusantara.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' fill='%230f4c4c'/%3E%3Ctext x='16' y='23' font-size='19' text-anchor='middle' fill='%23e3b96a' font-family='sans-serif' font-weight='bold'%3EN%3C/text%3E%3C/svg%3E">
+<link rel="stylesheet" href="/style.css">
+</head>
+<body>
+<header class="site-head">
+  <div class="head-inner">
+    <div class="brand">Nusantara Statistics
+      <small>Badan Statistik Nusantara</small>
+    </div>
+    <div class="year-picker">
+      <label for="year-select">Reference year</label>
+      <select id="year-select" aria-label="Reference year"></select>
+    </div>
+  </div>
+  <nav class="main-nav" aria-label="Sections">
+    <a href="#/overview">Overview</a>
+    <a href="#/population">Population</a>
+    <a href="#/economy">Economy</a>
+    <a href="#/provinces">Provinces</a>
+    <a href="#/health">Health &amp; Education</a>
+    <a href="#/about">Methodology &amp; About</a>
+  </nav>
+</header>
+<main id="view" aria-live="polite"></main>
+<footer class="site-foot">
+  <div class="foot-inner">
+    <strong>Nusantara Statistics</strong> — Badan Statistik Nusantara, Kota Tanjung.
+    All figures on this site are illustrative figures for a fictional country;
+    see <a href="#/about">Methodology &amp; About</a>. The site works offline:
+    every file it loads lives under app/.
+  </div>
+</footer>
+<script src="/data.js"></script>
+<script src="/app.js"></script>
+</body>
+</html>
